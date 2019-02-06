@@ -1,11 +1,7 @@
 TCPDI
 =====
 
-Composer ready [TCPDI](https://github.com/pauln/tcpdi).
-
 PDF importer for [TCPDF](http://www.tcpdf.org/), based on [FPDI](http://www.setasign.de/products/pdf-php-solutions/fpdi/).
-Requires [pauln/tcpdi_parser](https://github.com/pauln/tcpdi_parser) and [FPDF_TPL](http://www.setasign.de/products/pdf-php-solutions/fpdi/downloads/)
-which are included in the repository.
 
 Installation
 ------------
@@ -15,7 +11,7 @@ Link package in composer.json, e.g.
 ```json
 {
     "require": {
-        "propa/tcpdi": "^1.1"
+        "jnetops/tcpdi": "^1.1"
     }
 }
 ```
